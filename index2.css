@@ -1,0 +1,86 @@
+:root {
+    background-image: url("station.jpg");
+    background-size: 100vw 100vh;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: fit-content;
+    position: relative;
+    top: 10px;
+    
+}
+.header{
+    flex-grow: 6;
+    padding-left: 5vh;
+}
+.ico{
+    text-align: center;
+}
+.github, .linkedin {
+    
+    width: 10vw;
+    max-width: 60px;
+    flex-grow: 2;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    background-color: aqua;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    /*position: relative;
+    bottom: 0px;
+    width: fit-content;*/
+
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    background-color: aliceblue;
+}
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#increment-btn {
+    background-color: red;
+}
+#save-btn {
+    background-color: yellowgreen;
+}
+#total-btn {
+    background-color: green;
+}
+p {
+    background-color: aliceblue;
+    font-size: 30px;
+}
+#total-el {
+    font-weight: 900;
+}
+#reset-btn {
+    background-color: red;
+}
+footer {
+    background-color: white;
+}

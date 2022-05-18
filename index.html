@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@700&family=Inter:wght@700&display=swap');
+        </style>
         <link rel="stylesheet" href="index.css">
         <script src="index.js"></script>
     </head>
-    <body>
-        <h1>People entered</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" type="button" onclick="increment()">INCREMENT</button>
+    <body class="grid-cont">
+        <header>
+            <h1 class="header" style="flex-grow: 8;">People Counter</h1>
+            <a class="ico" style="flex-grow: 1;" href="https://github.com/nzabajp" target="_blank">
+                <img class="github" src="github2.png" alt="github link">
+            </a>
+            <a class="ico" style="flex-grow: 1;" href="https://linkedin.com/in/nzabajp" target="_blank">
+                <img class="linkedin" src="linkedin2.png" alt="linkedin link">
+            </a>
+        </header>
+        <main class="main">
+            <h2 class="sub-header">Counter</h2>
+            <h3 id="count-el">0</h3>
+            <button id="increment-btn" type="button" onclick="increment()">Increment</button>
+            <button id="save-btn" type="button" onclick="save()">Save</button>
+            <p id="save-el">Previous entries: </p>
+            <button id="total-btn" type="button" onclick="total()">Total</button>
+            <p id="total-el">Total entered: ...</p>
+            <button id="reset-btn" type="button" onclick="reset()">Reset</button>
+        </main>
+        <footer class="footer">
+            <p>© 2022 All Rights Reserved. <br> Developed with love By Jean Claude Nzabanterura </p>
+        </footer>
+        
     </body>
 </html>
